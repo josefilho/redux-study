@@ -5,7 +5,7 @@ import store from './store';
 
 import Catalog from './components/Catalog';
 
-function App() {
+const App: React.FC = () => {
   return (
     <Provider store={store}>
       <Catalog/>
